@@ -1,0 +1,32 @@
+<!-- 1. When clicked on a button a modal/popup should open or appear. -->
+<html>
+    <head>
+        <meta name="viewport" content="width=device=width, initial-scale=1.0">
+        <title>popup button</title>
+         <link rel="stylesheet" href="popup.css">
+    </head>
+
+
+    <body>
+
+        <div class="container">
+            <button type="submit" class="btn" onclick="openPopup()">Done</button>
+            
+            <div class="popup" id="popup">
+
+            <img src="Green-Tick.png">
+                <h2>Woohoo!!</h2>
+                <p>You have been logged in successfully. Thank you!</p>
+                
+            
+                  <button type="button" onclick="closePopup()">Okay</button>
+
+            </div>
+
+        </div>
+
+        <script src="popup.js"></script>
+
+    </body>
+
+</html>
